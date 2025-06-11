@@ -11,40 +11,22 @@
       box-sizing: border-box;
     }
 
-    html,
-    body {
-      width: 100%;
-      height: 100%;
-      background-color: #000;
-    }
-
-    button.image-button {
+    .image-box {
       width: 100vw;
       height: 100vh;
-      background-image: url('基礎網頁設計 (1).png');
-      /* 你的圖片檔案名 */
+      background-image: url("基礎網頁設計 (1).png");
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
       background-color: #000;
-      border: none;
       cursor: pointer;
-    }
-
-    button.image-button:focus {
-      outline: none;
     }
   </style>
 </head>
 
 <body>
-
-  <button class="image-button" onclick="location.href='https://5b3g0028.github.io/123/1_0.html#reflection'">
-    <!-- 可加 <span> 或 <h1> 顯示標題文字 -->
-  </button>
-
+  <div class="image-box" onclick="window.location.href='https://5b3g0028.github.io/123/1_0.html#reflection'">
+  </div>
 </body>
 
 </html>
-<script>
-  // 如果需要在按鈕點擊時執行其他 JavaScript 代碼，可以在這裡添加
